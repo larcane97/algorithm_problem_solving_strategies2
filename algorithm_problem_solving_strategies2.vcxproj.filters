@@ -21,5 +21,17 @@
     <ClCompile Include="GRADUATION.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="partialSum.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CHRISTMAS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JOSEPHUS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BRACKETS2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
