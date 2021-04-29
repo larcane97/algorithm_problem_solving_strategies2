@@ -1,3 +1,5 @@
-﻿  BRACKETS2.cpp
-C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\algorithm_problem_solving_strategies2\BRACKETS2.cpp(8,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  ITES.cpp
+C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\algorithm_problem_solving_strategies2\ITES.cpp(10,26): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\algorithm_problem_solving_strategies2\ITES.cpp(12,30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\algorithm_problem_solving_strategies2\ITES.cpp(24,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   algorithm_problem_solving_strategies2.vcxproj -> C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\Debug\algorithm_problem_solving_strategies2.exe
