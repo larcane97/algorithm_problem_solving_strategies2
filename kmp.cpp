@@ -13,6 +13,7 @@ vector<int> getPartialMatchNaive(const string& N) {
 			pi[begin + i] = max(pi[begin + i], i + 1);
 		}
 	}
+	return pi;
 }
 
 vector<int> getPartialMatch(const string& N) {
@@ -57,4 +58,36 @@ vector<int> kmpSearch(const string& H, const string& N) {
 		}
 	}
 	return ret;
+}
+
+
+vector<int> getPrefixSuffix(const string& s) {
+	vector<int> ret, pi = getPartialMatch(s);
+	int k = s.size();
+	while (k > 0) {
+		ret.push_back(k);
+		k = pi[k - 1];
+	}
+	return ret;
+}
+
+int maxOverlap(const string& a, const string& b) {
+	int n = a.size(), m = b.size();
+	vector<int>pi = getPartialMatch(b);
+
+	int begin = 0, matched = 0;
+	while (begin < n) {
+		if (matched < m && a[begin + matched] == b[matched]) {
+			matched++;
+			if (begin + matched == n) return matched;
+		}
+		else {
+			if (matched == 0)
+				begin++;
+			else {
+				begin += matched - pi[matched - 1];
+				matched = pi[matched - 1];
+			}
+		}
+	}
 }
