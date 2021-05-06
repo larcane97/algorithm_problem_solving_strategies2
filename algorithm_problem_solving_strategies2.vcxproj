@@ -166,6 +166,7 @@
     <ClCompile Include="kmp.cpp" />
     <ClCompile Include="JAEHASAFE.cpp" />
     <ClCompile Include="partialSum.cpp" />
+    <ClCompile Include="suffix.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

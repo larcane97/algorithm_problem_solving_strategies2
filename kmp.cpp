@@ -26,7 +26,7 @@ vector<int> getPartialMatch(const string& N) {
 			matched++;
 			pi[begin + matched - 1] = matched;
 		}
-		else {
+		else {   
 			if (matched == 0)
 				begin++;
 			else {
