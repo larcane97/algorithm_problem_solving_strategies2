@@ -23,9 +23,9 @@ vector<int> getSuffixArrayNaive(const string& s) {
 
 
 struct Comparator {
-	const vector<int>& group;
+	vector<int>& group;
 	int t;
-	Comparator(const vector<int>& _group, int _t) : group(_group), t(_t) {
+	Comparator(vector<int>& _group, int _t) : group(_group), t(_t) {
 		t = _t;
 		group = _group;
 	}
@@ -35,3 +35,35 @@ struct Comparator {
 		return group[a + t] < group[b + t];
 	}
 };
+
+vector<int> getSuffixArray(const string& s) {
+	int n = s.size();
+
+	int t = 1;
+	vector<int> group(n + 1);
+	for (int i = 0; i < n; i++) group[i] = s[i];
+	group[n] = -1;
+
+	vector<int> perm(n);
+	for (int i = 0; i < n; i++) perm[i] = i;
+
+	while (t < n) {
+		Comparator compareUsing2T(group, t);
+		sort(perm.begin(), perm.end(), compareUsing2T);
+
+		t *= 2;
+		if (t >= n) break;
+
+		vector<int> newGroup(n + 1);
+		newGroup[n] = -1;
+		newGroup[perm[0]] = 0;
+		for (int i = 1; i < n; i++) {
+			if (compareUsing2T(perm[i - 1], perm[i]))
+				newGroup[perm[i]] = newGroup[perm[i - 1]] + 1;
+			else
+				newGroup[perm[i]] = newGroup[perm[i - 1]];
+		}
+		group = newGroup;
+	}
+	return perm;
+}
