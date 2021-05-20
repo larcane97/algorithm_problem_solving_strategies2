@@ -93,5 +93,17 @@
     <ClCompile Include="SOLONG.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DICTOINARY.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerian circuit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WORDCHAIN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WORDCHAIN_sol.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
