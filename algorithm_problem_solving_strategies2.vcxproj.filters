@@ -105,5 +105,14 @@
     <ClCompile Include="WORDCHAIN_sol.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="dfs2.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tarjanSCC.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GALLERY.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
