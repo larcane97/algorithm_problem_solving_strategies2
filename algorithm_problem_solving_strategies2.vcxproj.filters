@@ -114,5 +114,8 @@
     <ClCompile Include="GALLERY.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MEETINGROOM.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
