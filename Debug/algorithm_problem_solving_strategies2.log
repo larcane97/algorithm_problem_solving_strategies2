@@ -1,3 +1,3 @@
-﻿  CHILDRENDAY.cpp
-C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\algorithm_problem_solving_strategies2\CHILDRENDAY.cpp(22,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  ROUTING.cpp
+C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\algorithm_problem_solving_strategies2\ROUTING.cpp(23,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   algorithm_problem_solving_strategies2.vcxproj -> C:\Users\moon\source\repos\algorithm_problem_solving_strategies2\Debug\algorithm_problem_solving_strategies2.exe
