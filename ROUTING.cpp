@@ -46,6 +46,7 @@ int main() {
 			double c;
 			cin >> a >> b >> c;
 			adj[a].push_back(make_pair(b, c));
+			adj[b].push_back(make_pair(a, c));
 		}
 		printf("%.10f\n", solve());
 	}
