@@ -17,7 +17,8 @@ void input() {
 
 	for (int i = 0; i < V; i++)
 		for (int j = 0; j < V; j++)
-			adj[i][j] = INF;
+			if (i == j) adj[i][j] = 0;
+			else adj[i][j] = INF;
 
 	for (int i = 0; i < V; i++)
 		cin >> delays[i];
