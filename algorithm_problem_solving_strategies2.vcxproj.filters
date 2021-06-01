@@ -147,5 +147,11 @@
     <ClCompile Include="TIMETRIP.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="floyd.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DRUNKEN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
