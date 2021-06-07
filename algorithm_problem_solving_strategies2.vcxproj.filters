@@ -165,5 +165,11 @@
     <ClCompile Include="LAN.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="flow_network.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MATCHFIX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
